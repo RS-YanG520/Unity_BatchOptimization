@@ -1,6 +1,6 @@
 # Batch Optimizer 合批优化器
 
-![Overview](../../预览图/overview.png)
+![Overview](预览图/overview.png)
 
 针对 Unity 内置静态合批“会把不同模型 / 不同材质错误合并、导致 Draw Call 反而升高”的问题，提供一套**精确合批**工具：
 按「网格（Mesh）+ 材质数组 + 光照贴图索引」分组，只把**完全相同**的模型合并到一起。
